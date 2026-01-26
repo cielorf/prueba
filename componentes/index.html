@@ -8,41 +8,106 @@
     <title>Cielo Ramírez-Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
 
 <body>
     <!--Sección de Barra de Navegación-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black py-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black py-2">
         <div class="container">
             <!--Para que aparezca Cielo-->
             <a class="navbar-brand fw-bold fs-3" href="#">
                 <span class="text-danger">C</span>IELO
             </a>
-            <!--Responsive-->
+            <!--Para que el Nabvar sea Responsive-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+            <!--Nombre de los enlaces-->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active custom-link-red" href="#">Inicio</a>
+                        <a class="nav-link active custom-link-red" href="#">Home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#">CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Curriculum Vitae</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section>
+    <!-- Sobre mí -->
+    <section class="py-1 bg-light">
+        <div class="container">
 
+            <!-- CARD -->
+            <div class="card shadow border-0">
+                <div class="card-body p-4">
+
+                    <div class="row align-items-center g-5">
+
+                        <!-- Imagen de perfil -->
+                        <!-- col-lg-4 tamaño de la card en la pantalla completa -->
+                        <div class="col-lg-4">
+                            <img src="../images/foto.png" class="img-fluid rounded-3 shadow" alt="Foto de perfil" />
+                        </div>
+
+                        <!-- Texto -->
+                        <div class="col-lg-7">
+                            <h2 class="fw-bold mb-2">SOBRE MI</h2>
+
+                            <h4 class="fw-bold mb-3">
+                                ¡Hola! soy <span class="text-danger">Cielo</span>
+                            </h4>
+
+                            <p class="text-muted mb-3">
+                                Ingeniera Informática con experiencia práctica en desarrollo full-stack,
+                                diseño de bases de datos SQL y resolución de problemas complejos. Aporto
+                                una gran capacidad de aprendizaje y un fuerte compromiso, buscando
+                                activamente una posición en desarrollo o pruebas de software para aplicar
+                                mi experiencia y contribuir a proyectos innovadores.
+                            </p>
+
+                            <!-- Redes sociales -->
+                            <div class="mt-4">
+                                <div class="d-flex gap-4">
+                                    <a href="https://www.instagram.com/cieloy_rf/" target="_blank"
+                                        class="text-dark fs-4">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                    <a href="https://www.facebook.com/cielorf15" target="_blank" class="text-dark fs-4">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                    <a href="https://github.com/cielorf" target="_blank" class="text-dark fs-4">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/cielorf1/" target="_blank"
+                                        class="text-dark fs-4">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                    <!-- Botón Descargar CV -->
+                                    <a href="../docs/CV_CIELO.pdf" class="btn btn-dark px-4 rounded-pill" download>
+                                        Descargar CV
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- /CARD -->
+
+        </div>
     </section>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/00935629f3.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
