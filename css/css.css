@@ -1,0 +1,69 @@
+:root {
+  --accent: #dc3545; /* rojo bootstrap */
+  --soft: #f6f7fb;
+}
+
+body {
+  background: var(--soft);
+}
+
+.section-title {
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.accent-bar {
+  width: 60px;
+  height: 4px;
+  background: var(--accent);
+  border-radius: 999px;
+}
+
+.card-soft {
+  border: 0;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.badge-soft {
+  background: rgba(220, 53, 69, 0.12);
+  color: var(--accent);
+  border: 1px solid rgba(220, 53, 69, 0.2);
+}
+
+.timeline {
+  position: relative;
+  padding-left: 22px;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: #e5e7eb;
+}
+.t-item {
+  position: relative;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid #eef0f3;
+  margin-bottom: 12px;
+}
+.t-item::before {
+  content: "";
+  position: absolute;
+  left: -22px;
+  top: 18px;
+  width: 14px;
+  height: 14px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.15);
+}
+.small-muted {
+  color: #6b7280;
+  font-size: 0.92rem;
+}
