@@ -1,0 +1,8 @@
+{
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features",
+      "editor.formatOnSave": true
+    },
+    "prettier.disableLanguages": ["json", "jsonc"]
+  }
+  
