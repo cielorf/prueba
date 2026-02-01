@@ -1,0 +1,133 @@
+{
+  "habilidadesTecnicas": {
+    "lenguajesProgramacion": [
+      "JavaScript",
+      "Java",
+      "PHP"
+    ],
+    "desarrolloFrontEnd": [
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "React"
+    ],
+    "desarrolloBackEnd": [
+      "ASP.NET",
+      "CodeIgniter"
+    ],
+    "basesDeDatos": [
+      "SQL Server",
+      "MySQL"
+    ],
+    "herramientasTecnologias": [
+      "Git",
+      "Figma",
+      "Trello",
+      "Documentación Técnica"
+    ]
+  },
+  "proyectosPersonales": [
+    {
+      "descripcion": "Participe en proyectos escolares y actualmente sigo un curso de JavaScript, HTML y CSS"
+    }
+  ],
+  "experiencia": [
+    {
+      "puesto": "Asesor de envíos",
+      "empresa": "Estafeta Mexicana",
+      "ubicacion": "Coahuayana, Michoacán",
+      "periodo": "Feb 2024 - Actual",
+      "actividades": [
+        "Asesoría en envíos nacionales e internacionales",
+        "Gestión aduanal y caja",
+        "Control de datos en Excel",
+        "Rastreo de guías",
+        "Soporte técnico y atención al cliente",
+        "Diseño publicitario con IA"
+      ]
+    },
+    {
+      "puesto": "Agente de Viajes",
+      "empresa": "Vamos A",
+      "ubicacion": "Coahuayana, Michoacán",
+      "periodo": "Mar 2025 - Actual",
+      "actividades": [
+        "Control de inventario de boletos de avión",
+        "Gestión de paquetes turísticos",
+        "Atención y seguimiento a clientes"
+      ]
+    },
+    {
+      "puesto": "Asistente Voluntaria",
+      "empresa": "IMSS Bienestar",
+      "ubicacion": "Coahuayana, Michoacán",
+      "periodo": "2020 - 2025",
+      "actividades": [
+        "Gestión de documentos en Word y Excel",
+        "Diseño de materiales publicitarios",
+        "Captura y control de datos en sistemas"
+      ]
+    },
+    {
+      "puesto": "Ingeniero de Pruebas",
+      "empresa": "IBM",
+      "ubicacion": "Guadalajara, Jalisco",
+      "periodo": "May 2023 - Jul 2023",
+      "actividades": [
+        "Instalación y configuración de sistemas en celdas de prueba",
+        "Ejecución de planes de prueba",
+        "Documentación de resultados",
+        "Identificación y resolución de fallas técnicas"
+      ]
+    },
+    {
+      "puesto": "Prácticas Profesionales",
+      "empresa": "Maldonado de Software",
+      "ubicacion": "Colima, Colima",
+      "periodo": "Ago 2022 - Dic 2022",
+      "actividades": [
+        "Análisis de requerimientos",
+        "Diseño de bases de datos relacionales",
+        "Prototipado UI/UX en Figma",
+        "Desarrollo Full Stack con React y ASP.NET",
+        "Trabajo bajo metodología Scrum"
+      ]
+    },
+    {
+      "puesto": "Practicante de Programación",
+      "empresa": "Sistemas Fractal",
+      "ubicacion": "Colima, Colima",
+      "periodo": "Oct 2021 - Dic 2021",
+      "actividades": [
+        "Análisis de requerimientos",
+        "Diseño de bases de datos SQL",
+        "Prototipado de interfaces",
+        "Desarrollo Full Stack",
+        "Trabajo bajo metodología Scrum"
+      ]
+    }
+  ],
+  "educacion": {
+    "carrera": "Ingeniería Informática",
+    "institucion": "TecNM Campus Colima",
+    "periodo": "2017 - 2022",
+    "promedio": 91.98
+  },
+  "certificaciones": [
+    {
+      "nombre": "Inteligencia Artificial para la vida y el trabajo",
+      "institucion": "Red por la Ciberseguridad y Microsoft",
+      "fecha": "Julio 2025"
+    },
+    {
+      "nombre": "Desarrollo Web II",
+      "institucion": "Google Activate",
+      "fecha": "Marzo 2023"
+    },
+    {
+      "nombre": "Introduction to HTML",
+      "institucion": "SoloLearn",
+      "fecha": "Abril 2023"
+    }
+  ]
+}
